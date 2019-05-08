@@ -580,21 +580,42 @@ h3.heading:after{
 
 /*-- services --*/
 .serviceimage1{
-	background: url(../images/banner1.jpg) no-repeat center;
+	background: url(../images/haircut.jpg) no-repeat center;
 	background-size: cover;
      position: relative;
 }
 .serviceimage2{
-	background: url(../images/banner2.jpg) no-repeat center;
+	background: url(../images/straight.jpg) no-repeat center;
 	background-size: cover;
     position: relative;
 }
 .serviceimage3{
-	background: url(../images/banner3.jpg) no-repeat center;
+	background: url(../images/barber1.jpg) no-repeat center;
 	background-size: cover;
      position: relative;
 }
-.serviceimage1:before, .serviceimage2:before, .serviceimage3:before {
+
+.serviceimage4{
+	background: url(../images/color.jpg) no-repeat center;
+	background-size: cover;
+     position: relative;
+}
+.serviceimage5{
+	background: url(../images/beard.jpg) no-repeat center;
+	background-size: cover;
+     position: relative;
+}
+.serviceimage6{
+	background: url(../images/wax.jpg) no-repeat center;
+	background-size: cover;
+     position: relative;
+}
+.serviceimage7{
+	background: url(../images/style.jpg) no-repeat center;
+	background-size: cover;
+     position: relative;
+}
+.serviceimage1:before, .serviceimage2:before, .serviceimage3:before,.serviceimage4:before,.serviceimage5:before,.serviceimage6:before,.serviceimage7:before {
     border-bottom: 3px solid #eee;
     border-right: 3px solid #eee;
     content: "";
@@ -605,7 +626,7 @@ h3.heading:after{
     top: 15px;
     bottom: 15px;
 }
-.serviceimage1:after, .serviceimage2:after, .serviceimage3:after {
+.serviceimage1:after, .serviceimage2:after, .serviceimage3:after,.serviceimage4:before,.serviceimage5:before,.serviceimage6:before,.serviceimage7:after {
     border-top: 3px solid #eee;
     border-left: 3px solid #eee;
     content: "";
